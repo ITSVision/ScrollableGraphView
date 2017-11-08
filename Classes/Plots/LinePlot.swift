@@ -1,7 +1,7 @@
 
 import UIKit
 
-open class LinePlot : Plot {
+@objc open class LinePlot : Plot {
     
     // Public settings for the LinePlot
     // ################################

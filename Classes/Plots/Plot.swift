@@ -1,7 +1,7 @@
 
 import UIKit
 
-open class Plot {
+open class Plot : NSObject {
     
     // The id for this plot. Used when determining which data to give it in the dataSource
     open var identifier: String!

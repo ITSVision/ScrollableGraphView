@@ -2,7 +2,7 @@
 import UIKit
 
 // Currently just a simple data structure to hold the settings for the reference lines.
-open class ReferenceLines {
+@objc open class ReferenceLines : NSObject {
     
     // Reference Lines
     // ###############
@@ -68,7 +68,7 @@ open class ReferenceLines {
     /// Used to force the graph to show every n-th dataPoint label
     @IBInspectable open var dataPointLabelsSparsity: Int = 1
     
-    public init() {
+    public override init() {
         // Need this for external frameworks.
     }
 }
